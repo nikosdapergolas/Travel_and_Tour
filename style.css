@@ -3,7 +3,7 @@
 :root{
     --main-color: #8e44ad;
     --black: #222;
-    --white: #222;
+    --white: #fff;
     --light-black: #777;
     --light-white: #fff9;
     --dark-bg: rgba(0,0,0,.7);
@@ -39,6 +39,10 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
 
+section{
+    padding: 5rem 10%;
+}
+
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -51,5 +55,21 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: space-between;
 }
+
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header.navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--black);
+}
+
+.header.navbar a:hover{
+    color:var(--main-color);
+}
+
 
 /* 10.44 */
