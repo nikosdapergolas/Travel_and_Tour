@@ -116,10 +116,11 @@ section{
         background-color: var(--white);
         border-top: var(--border);
         padding:2rem;
+        transition: .2s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    .header .navbar .active{
+    .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
@@ -140,4 +141,4 @@ section{
 }
 
 
-/* 12.07 */
+/* 17.53 */
