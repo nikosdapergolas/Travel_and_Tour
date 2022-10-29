@@ -71,5 +71,59 @@ section{
     color:var(--main-color);
 }
 
+#menu-btn{
+    font-size: 2.4rem;
+    cursor: pointer;
+    color: var(--black);
+    display: none;
+}
 
-/* 10.44 */
+
+
+
+
+
+
+
+/* media queries */
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    section{
+        padding: 3rem 2rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .header .navbar{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background-color: var(--white);
+        border-top: var(--border);
+        padding:2rem;
+    }
+
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+
+
+/* 12.07 */

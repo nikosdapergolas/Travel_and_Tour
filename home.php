@@ -31,6 +31,8 @@
                 <a href="book.php">Book</a>
             </nav>
 
+            <div id="menu-btn" class="fas fa-bar"></div>
+
         </section>
 
         <!-- header sections ends -->
