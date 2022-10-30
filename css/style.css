@@ -79,13 +79,13 @@ section{
 }
 
 .footer{
-    background-image: url('../img/footer-bg.jpg') no-repeat;
+    background: url(../images/footer-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
-/* .footer .box-container{
+.footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem;
@@ -95,7 +95,7 @@ section{
     color:var(--white);
     font-size: 2.5rem;
     padding-bottom: 2rem;
- } */
+ }
  
 
 
