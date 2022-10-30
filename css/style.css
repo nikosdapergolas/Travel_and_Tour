@@ -79,10 +79,24 @@ section{
 }
 
 .footer{
-    background: url(./images/footer-bg.jpg) no-repeat;
+    background-image: url('../img/footer-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
+
+/* .footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+ }
+
+ .footer .box-container .box h3{
+    color:var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+ } */
+ 
 
 
 
