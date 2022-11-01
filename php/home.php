@@ -17,6 +17,25 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
 
+    <style>
+
+        .home{
+            padding:0;
+        }
+
+        .home .slide{
+            text-align: center;
+            padding:2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover !important;
+            background-position: center !important;
+            min-height: 60rem;
+        }
+
+    </style>
+
     <body>
         
         <!-- header sections starts -->
