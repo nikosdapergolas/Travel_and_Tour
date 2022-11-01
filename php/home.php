@@ -53,9 +53,9 @@
             /* display: none; */
         }
 
-        /* .home .swiper-slide-active .content{
+        .home .slide-active .content{
             display: inline-block;
-        } */
+        }
 
         .home .slide .content span{
             display: block;
@@ -134,7 +134,7 @@
 
             <div class="home-slider">
 
-                <div class="W">
+                <div class="wrapper">
 
                     <div class="slide" style="background:url(../images/home-slide-1.jpg) no-repeat">
 
@@ -168,11 +168,8 @@
 
                 </div>
 
-                <!-- <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div> -->
-
             </div>
-
+            
         </section>
 
         
@@ -284,7 +281,7 @@
         <!-- footer section ends -->
 
         <!-- Swiper js link -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
         <!--Custom js file link-->
         <script src="../js/script.js"></script>
