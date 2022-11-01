@@ -19,6 +19,20 @@
 
     <style>
 
+        .btn{
+            display: inline-block;
+            background: var(--black);
+            margin-top: 1rem;
+            color:var(--white);
+            font-size: 1.7rem;
+            padding:1rem 3rem;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background: var(--main-color);
+        }
+
         .heading{
             background-size: cover !important;
             background-position: center !important;
@@ -34,6 +48,49 @@
             text-transform: uppercase;
             color:var(--white);
             text-shadow: var(--text-shadow);
+        }
+
+        .booking .book-form{
+            padding:2rem;
+            background: var(--light-bg);
+        }
+
+        .booking .book-form .flex{
+            display: flex;
+            flex-wrap: wrap;
+            gap:2rem;
+        }
+
+        .booking .book-form .flex .inputBox{
+            flex:1 1 41rem;
+        }
+
+        .booking .book-form .flex .inputBox input{
+            width: 100%;
+            padding:1.2rem 1.4rem;
+            font-size: 1.6rem;
+            color:var(--light-black);
+            text-transform: none;
+            margin-top: 1.5rem;
+            border:var(--border);
+        }
+
+        .booking .book-form .flex .inputBox input:focus{
+            background: var(--black);
+            color:var(--white);
+        }
+
+        .booking .book-form .flex .inputBox input:focus::placeholder{
+            color:var(--light-white);
+        }
+
+        .booking .book-form .flex .inputBox span{
+            font-size: 1.5rem;
+            color:var(--light-black);
+        }
+
+        .booking .book-form .btn{
+            margin-top: 2rem;
         }
 
     </style>
@@ -62,10 +119,56 @@
             <h1>Book now</h1>
         </div>
 
-        <!-- book section starts  -->
+        <!-- booking section starts  -->
 
+        <section class="booking">
 
-        <!-- 1.19.32 -->
+            <h1 class="heading-title">book your trip!</h1>
+
+            <form action="book_form.php" method="post" class="book-form">
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>name :</span>
+                        <input type="text" placeholder="enter your name" name="name">
+                    </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="enter your email" name="email">
+                    </div>
+                    <div class="inputBox">
+                        <span>phone :</span>
+                        <input type="number" placeholder="enter your number" name="phone">
+                    </div>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="enter your address" name="address">
+                    </div>
+                    <div class="inputBox">
+                        <span>where to :</span>
+                        <input type="text" placeholder="place you want to visit" name="location">
+                    </div>
+                    <div class="inputBox">
+                        <span>how many :</span>
+                        <input type="number" placeholder="number of guests" name="guests">
+                    </div>
+                    <div class="inputBox">
+                        <span>arrivals :</span>
+                        <input type="date" name="arrivals">
+                    </div>
+                    <div class="inputBox">
+                        <span>leaving :</span>
+                        <input type="date" name="leaving">
+                    </div>
+                </div>
+
+                <input type="submit" value="submit" class="btn" name="send">
+
+            </form>
+
+        </section>
+
+        <!-- booking section ends -->
         
 
 
