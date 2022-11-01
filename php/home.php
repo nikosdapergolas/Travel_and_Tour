@@ -37,7 +37,83 @@
 
         <!-- header sections ends -->
 
-        <!-- 32.58 -->
+        <!-- home section starts  -->
+
+        <section class="home">
+
+            <!-- <div class="swiper home-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide" style="background:url(../images/home-slide-1.jpg) no-repeat">
+                        <div class="content">
+                            <span>explore, discover, travel</span>
+                            <h3>travel arround the world</h3>
+                            <a href="package.php" class="btn">discover more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background:url(../images/home-slide-2.jpg) no-repeat">
+                        <div class="content">
+                            <span>explore, discover, travel</span>
+                            <h3>discover the new places</h3>
+                            <a href="package.php" class="btn">discover more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background:url(../images/home-slide-3.jpg) no-repeat">
+                        <div class="content">
+                            <span>explore, discover, travel</span>
+                            <h3>make your tour worthwhile</h3>
+                            <a href="package.php" class="btn">discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </div> -->
+            <div class="home-slider">
+
+                <div class="W">
+
+                    <div class="slide" style="background:url(../images/home-slide-1.jpg) no-repeat">
+
+                        <div class="content">
+                            <span>explore, discover, travel</span>
+                            <h3>travel around the world</h3>
+                            <a href="package.php" class="btn">discover more</a>
+                        </div>                
+                
+                    </div>
+
+                    <div class="slide" style="background:url(../images/home-slide-2.jpg) no-repeat">
+
+                        <div class="content">
+                            <span>explore, discover, travel</span>
+                            <h3>travel around the world</h3>
+                            <a href="package.php" class="btn">discover more</a>
+                        </div>                
+                
+                    </div>
+
+                    <div class="slide" style="background:url(../images/home-slide-3.jpg) no-repeat">
+
+                        <div class="content">
+                            <span>explore, discover, travel</span>
+                            <h3>travel around the world</h3>
+                            <a href="package.php" class="btn">discover more</a>
+                        </div>                
+                
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- home section ends -->
 
         <!-- services section starts  -->
 
