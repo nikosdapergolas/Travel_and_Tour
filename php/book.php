@@ -17,6 +17,27 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
 
+    <style>
+
+        .heading{
+            background-size: cover !important;
+            background-position: center !important;
+            padding-top: 10rem;
+            padding-bottom:15rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .heading h1{
+            font-size: 10rem;
+            text-transform: uppercase;
+            color:var(--white);
+            text-shadow: var(--text-shadow);
+        }
+
+    </style>
+
     <body>
         
         <!-- header sections starts -->
@@ -41,10 +62,10 @@
             <h1>Book now</h1>
         </div>
 
-        <!-- about section starts  -->
+        <!-- book section starts  -->
 
 
-
+        <!-- 1.19.32 -->
         
 
 
