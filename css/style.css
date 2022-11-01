@@ -43,13 +43,6 @@ section{
     padding: 5rem 10%;
 }
 
-@keyframes fadeIn {
-   0%{
-      transform: scale(0);
-      opacity: 0;
-   }
-}
-
 .heading-title{
    text-align: center;
    margin-bottom: 3rem;
@@ -120,6 +113,12 @@ section{
    font-size: 1.7rem;
    padding-top: 1rem;
 }
+
+
+
+
+
+
 
 .footer{
     background: url(../images/footer-bg.jpg) no-repeat;
