@@ -19,6 +19,114 @@
 
     <style>
 
+        .home-offer{
+            text-align: center;
+        }
+
+        .home-offer .content{
+            max-width:70rem;
+            margin:0 auto;
+        }
+
+        .home-offer .content h3{
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            color:var(--black);
+        }
+
+        .home-offer .content p{
+            font-size: 1.5rem;
+            color:var(--light-black);
+            line-height: 2;
+            padding:1rem 0;
+        }
+
+        .home-packages{
+            background: var(--light-bg);
+        }
+
+        .home-packages .box-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+            gap: 2rem;
+        }
+
+        .home-packages .box-container .box{
+            border:var(--border);
+            box-shadow: var(--box-shadow);
+            background: var(--white);
+        }
+
+        .home-packages .box-container .box:hover .image img{
+            transform: scale(1.1);
+        }
+
+        .home-packages .box-container .box .image{
+            height: 25rem;
+            overflow: hidden;
+        }
+
+        .home-packages .box-container .box .image img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: .2s linear;
+        }
+
+        .home-packages .box-container .box .content{
+            padding:2rem;
+            text-align: center;
+        }
+
+        .home-packages .box-container .box .content h3{
+            font-size: 2.5rem;
+            color:var(--black);
+        }
+
+        .home-packages .box-container .box .content p{
+            font-size: 1.5rem;
+            color:var(--light-black);
+            line-height: 2;
+            padding:1rem 0;
+        }
+
+        .home-packages .load-more{
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .home-about{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .home-about .image{
+            flex:1 1 41rem;
+        }
+
+        .home-about .image img{
+            width: 100%;
+        }
+
+        .home-about .content{
+            flex:1 1 41rem;
+            padding:3rem;
+            background: var(--light-bg);
+        }
+
+        .home-about .content h3{
+            font-size: 3rem;
+            color:var(--black);
+        }
+
+        .home-about .content p{
+            font-size: 1.5rem;
+            padding:1rem 0;
+            line-height: 2;
+            color:var(--black);
+        }
+
         .btn{
             display: inline-block;
             background: var(--black);
@@ -50,7 +158,6 @@
 
         .home .slide .content{
             width: 85rem;
-            /* display: none; */
         }
 
         .home .slide-active .content{
@@ -74,37 +181,6 @@
             padding:1rem 0;
             animation:fadeIn .2s linear backwards .4s;
         }
-
-        /* .home .slide .content .btn{
-            animation:fadeIn .2s linear backwards .6s;
-        } */
-
-        /* .home .swiper-button-next,
-        .home .swiper-button-prev{
-            top:inherit;
-            left: inherit;
-            bottom: 0;
-            right: 0;
-            height: 7rem;
-            width: 7rem;
-            background: var(--white);
-            color:var(--black);
-        } */
-
-        /* .home .swiper-button-next:hover,
-        .home .swiper-button-prev:hover{
-            background: var(--main-color);
-            color:var(--white);
-        } */
-
-        /* .home .swiper-button-next::after,
-        .home .swiper-button-prev::after{
-            font-size: 2rem;
-        } */
-
-        /* .home .swiper-button-prev{
-            right: 7rem;
-        } */
 
     </style>
 
@@ -220,10 +296,83 @@
 
         <!-- services section ends -->
 
+        <!-- home about section starts  -->
+
+        <section class="home-about">
+
+            <div class="image">
+                <img src="../images/about-img.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>about us</h3>
+                <p>We are a team that have gathered together an made This site to work on our cyber security skills</p>
+                <a href="about.php" class="btn">read more</a>
+            </div>
+
+        </section>
+
+        <!-- home about section ends -->
+
+        <!-- home packages section starts  -->
+
+        <section class="home-packages">
+
+            <h1 class="heading-title"> our packages </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="../images/img-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                        <a href="book.php" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="../images/img-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                        <a href="book.php" class="btn">book now</a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="../images/img-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                        <a href="book.php" class="btn">book now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
+
+        </section>
+
+        <!-- home packages section ends -->
 
 
+        <section class="home-offer">
+            <div class="content">
+                <h3>upto 50% off</h3>
+                <p>This offer will soon expire! Get it now before it ends!!</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </section>
 
-
+        <!-- home offer section ends -->
         
 
 
@@ -281,7 +430,7 @@
         <!-- footer section ends -->
 
         <!-- Swiper js link -->
-        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
         <!--Custom js file link-->
         <script src="../js/script.js"></script>
